@@ -6,16 +6,18 @@ import Navbar from './components/Navbar';
 import Bodypart from './Bodypart/Bodypart';
 import Introduce from './Introduce/Introduce';
 import Allpet from './Allpet/Allpet';
+import Footer from './Footer/Footer';
 function App() {
+  
   return (
-    <div className="App">
+
+    <div className="App">      
       <Navbar/>
       <Bodypart/>
-      <Introduce/>
+      <Introduce/> 
       <Allpet/>
+      <Footer/>
     </div>
-    
-
   );
 }
 

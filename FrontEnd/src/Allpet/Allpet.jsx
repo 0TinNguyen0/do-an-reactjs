@@ -20,52 +20,191 @@ import a18 from '../assets/images/a18.jpg'
 import a19 from '../assets/images/a19.jpg'
 import a20 from '../assets/images/a20.jpg'
 import a21 from '../assets/images/a21.jpg'
+import m1 from '../assets/images/m1.jpg'
+import m2 from '../assets/images/m2.jpg'
+import m3 from '../assets/images/m3.jpg'
+import m4 from '../assets/images/m4.jpg'
+import m5 from '../assets/images/m5.jpg'
+import m6 from '../assets/images/m6.jpg'
+import m7 from '../assets/images/m7.jpg'
+import m8 from '../assets/images/m8.jpg'
+import m9 from '../assets/images/m9.jpg'
+import m10 from '../assets/images/m10.jpg'
+import m11 from '../assets/images/m11.jpg'
+import m12 from '../assets/images/m12.jpg'
+
 function Allpet(props){
     return (
-        <div class="card-group">
-  <div class="card">
-    <img class="card-img-top" src={a1} alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">CHÓ POODLE</h5>
-      <p class="card-text">30.000.000 đ</p>
-    </div>
+      
+      <div class="club-products">
+      <h2>Tất cả các thú cưng</h2>
+      <ul class="list-products">
+          <div class="item">
+              <img src={a1} alt=""/>
+              <div class="name">Chó Poodle</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Chó Poodle', 15000000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a2} alt=""/>
+              <div class="name">Chó Poodle</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Chó Poodle', 15000000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a3} alt=""/>
+              <div class="name">Chó Poodle</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Chó Poodle', 15000000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a4} alt=""/>
+              <div class="name">Chó Poodle</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Chó Poodle', 15000000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a10} alt=""/>
+              <div class="name">Chó Husky</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Chó Husky', 15000000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a11} alt=""/>
+              <div class="name">Chó Husky</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Atletico Madrid Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a9} alt=""/>
+              <div class="name">Chó Husky</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Asernal Sân Khách', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a12} alt=""/>
+              <div class="name">Chó Husky</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Asernal Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a13} alt=""/>
+              <div class="name">Chó Chihuahua</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Bayern Munich Sân Khách', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a14} alt=""/>
+              <div class="name">Chó Chihuahua</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Bayern Munich Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a15} alt=""/>
+              <div class="name">Chó Chihuahua</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Inter Miami Sân Khách', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={a16} alt=""/>
+              <div class="name">Chó Chihuahua</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Inter Miami Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={m1} alt=""/>
+              <div class="name">Mèo anh lông ngắn</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Manchester United Sân Khách', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={m2} alt=""/>
+              <div class="name">Mèo anh lông ngắn</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Manchester United Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={m3} alt=""/>
+              <div class="name">Mèo anh lông ngắn</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Paris Saint Geamain Sân Khách', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={m4} alt=""/>
+              <div class="name">Mèo anh lông ngắn</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Paris Saint Geamain Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={m5} alt=""/>
+              <div class="name">Mèo Ragdoll</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Real Madrid Sân Khách', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={m6} alt=""/>
+              <div class="name">Mèo Ragdoll</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Real Madrid Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={m7} alt=""/>
+              <div class="name">Mèo Ragdoll</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Tottenham Sân Khách', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+
+          <div class="item">
+              <img src={m8} alt=""/>
+              <div class="name">Mèo Ragdoll</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Tottenham Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+          <div class="item">
+              <img src={m9} alt=""/>
+              <div class="name">Mèo Sphynx</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Tottenham Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+          <div class="item">
+              <img src={m10} alt=""/>
+              <div class="name">Mèo Sphynx</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Tottenham Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+          <div class="item">
+              <img src={m11} alt=""/>
+              <div class="name">Mèo Sphynx</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Tottenham Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+          <div class="item">
+              <img src={m12} alt=""/>
+              <div class="name">Mèo Sphynx</div>
+              <div class="price">15.000.000</div>
+              <button onclick="addToCart('Tottenham Sân Nhà', 150000)" class="btn-buy">Mua ngay</button>
+          </div> 
+      </ul>
   </div>
-  <div class="card">
-    <img class="card-img-top" src={a2} alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">CHÓ POODLE</h5>
-      <p class="card-text">18.000.000 đ</p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src={a3} alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">CHÓ POODLE</h5>
-      <p class="card-text">10.000.000 đ</p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src={a1} alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">CHÓ POODLE</h5>
-      <p class="card-text">30.000.000 đ</p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src={a2} alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">CHÓ POODLE</h5>
-      <p class="card-text">18.000.000 đ</p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src={a3} alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">CHÓ POODLE</h5>
-      <p class="card-text">10.000.000 đ</p>
-    </div>
-  </div>
-</div>
+  
     )}
 
 export default Allpet;
