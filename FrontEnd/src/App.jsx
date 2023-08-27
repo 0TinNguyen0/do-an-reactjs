@@ -10,13 +10,12 @@ import Footer from './Footer/Footer';
 function App() {
   
   return (
-
     <div className="App">      
-      <Navbar/>
-      <Bodypart/>
-      <Introduce/> 
+      <Navbar/> 
+      <Bodypart/> 
+      <Introduce/>
       <Allpet/>
-      <Footer/>
+      <Footer/> 
     </div>
   );
 }

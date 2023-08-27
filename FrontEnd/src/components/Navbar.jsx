@@ -6,6 +6,7 @@ import { FaPhoneAlt } from 'react-icons/fa'
 import { FaSearch } from 'react-icons/fa'
 import { MdDarkMode } from 'react-icons/md'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 function Navbar(props){
     return (
         <header>
@@ -19,22 +20,34 @@ function Navbar(props){
             <nav>
                 <ul id="main-menu">
                     <li>
-                        <a href="#" className="active" title="Trang Chủ"> 
+                         <Link to={`/`} className="active" title="Trang Chủ">
+                            <img width={20} height={20} src={petlogo} alt="" /> 
+                            <b>Trang Chủ</b>
+                        </Link>
+                        {/* <a href="#" className="active" title="Trang Chủ"> 
                             <img width={20} height={20} src={petlogo} alt="" /> 
                                 <b>Trang Chủ</b>
-                        </a>
+                        </a> */}
                     </li>  
                     <li>
-                        <a href="#" className="active" title="Chó Cảnh">
+                        <Link to={`/dogs`} className="active" title="Chó Cảnh">
+                            <img width={20} height={20} src={icondog} alt="" /> 
+                            <b>Chó Cảnh</b>
+                        </Link>
+                        {/* <a href="#" className="active" title="Chó Cảnh">
                             <img width={20} height={20} src={icondog} alt="" /> 
                                 <b> Chó Cảnh </b> 
-                        </a>                         
+                        </a>                          */}
                     </li>
                     <li>
-                        <a href="#" className="active" title="Mèo Cảnh"> 
+                    <Link to={`/cats`} className="active" title="Mèo Cảnh">
+                            <img width={20} height={20} src={iconcat} alt="" /> 
+                            <b>Mèo Cảnh</b>
+                        </Link>
+                        {/* <a href="#" className="active" title="Mèo Cảnh"> 
                             <img width={20} height={20} src={iconcat} alt="" />  
                                 <b> Mèo Cảnh</b>
-                        </a> 
+                        </a>  */}
                     </li> 
                     <div className='navphone'>
                         <li>
