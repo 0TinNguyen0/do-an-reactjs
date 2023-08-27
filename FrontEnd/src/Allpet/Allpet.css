@@ -1,0 +1,9 @@
+.card-img-top {
+    height: 260px;
+
+}
+
+.card-group{
+    display: flex;  
+    flex-wrap: wrap;
+}
